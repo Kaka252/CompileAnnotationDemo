@@ -26,6 +26,12 @@ import javax.tools.JavaFileObject;
 public class HelloWorldProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
+
+
+
+
+
+
         StringBuilder sb = new StringBuilder();
         sb.append("package com.example.generated;\n\n");
         sb.append("public class GeneratedClass {\n\n");
