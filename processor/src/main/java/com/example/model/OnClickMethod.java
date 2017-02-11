@@ -1,6 +1,6 @@
 package com.example.model;
 
-import com.example.annotation.OnClick;
+import com.anno.OnClick;
 
 import java.util.List;
 
