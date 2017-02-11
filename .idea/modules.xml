@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CompileAnnotationDemo.iml" filepath="$PROJECT_DIR$/CompileAnnotationDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/processor/processor.iml" filepath="$PROJECT_DIR$/processor/processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/view-binder/view-binder.iml" filepath="$PROJECT_DIR$/view-binder/view-binder.iml" />
     </modules>
   </component>
 </project>

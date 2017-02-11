@@ -18,7 +18,7 @@ import javax.lang.model.element.TypeElement;
 import javax.tools.JavaFileObject;
 
 /**
- * http://blog.csdn.net/industriously/article/details/53932425
+ * http://brucezz.itscoder.com/use-apt-in-android
  */
 @SupportedAnnotationTypes("com.example.annotation.HelloWorldAnnotation")
 @SupportedSourceVersion(SourceVersion.RELEASE_7)
@@ -26,6 +26,12 @@ import javax.tools.JavaFileObject;
 public class HelloWorldProcessor extends AbstractProcessor {
     @Override
     public boolean process(Set<? extends TypeElement> set, RoundEnvironment roundEnvironment) {
+
+
+
+
+
+
         StringBuilder sb = new StringBuilder();
         sb.append("package com.example.generated;\n\n");
         sb.append("public class GeneratedClass {\n\n");
